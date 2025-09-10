@@ -180,6 +180,6 @@ print(f"Entidades únicas: {len(unique_entity_dict)}")
 # Guardar el DataFrame
 output_dir = './data/intermediate/'
 os.makedirs(output_dir, exist_ok=True)
-output_path = os.path.join(output_dir, 'humble_intelligence_entities.csv')
+output_path = os.path.join(output_dir, 'humble_intelligence_1million_entities.csv')
 entities_df.to_csv(output_path, index=False, encoding='utf-8', sep=';')
 print(f"\nArchivo guardado en: {output_path}")
