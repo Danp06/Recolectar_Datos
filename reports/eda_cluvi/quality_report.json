@@ -1,0 +1,22 @@
+{
+  "null_counts": {
+    "label": 0,
+    "standard_label": 0,
+    "description": 0,
+    "category": 0,
+    "main_category": 0,
+    "description_length_chars": 0,
+    "label_length_chars": 0,
+    "standard_label_length_chars": 0,
+    "label_lower": 0,
+    "standard_label_lower": 0,
+    "description_lower": 0,
+    "num_words_description": 0,
+    "has_numbers": 0,
+    "has_special_chars": 0
+  },
+  "duplicates": 294939,
+  "label_inconsistencies": 11736,
+  "ambiguous_categories": 39381,
+  "invalid_lengths": 39371
+}

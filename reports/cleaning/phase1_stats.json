@@ -1,0 +1,8 @@
+{
+  "total_annotations": 10918430,
+  "invalid_lengths_removed": 431090,
+  "duplicates_removed": 164222,
+  "overlaps_removed": 73417,
+  "ambiguous_resolved": 217,
+  "extremes_removed": 3756
+}

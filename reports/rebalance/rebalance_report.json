@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "total_annotations": 27296077,
+    "rare_types_reassigned": [
+      "QUANTITY",
+      "UNIT",
+      "PROCESS",
+      "PHYSICAL_QUALITY",
+      "COLOR",
+      "PURPOSE",
+      "TASTE",
+      "PART"
+    ],
+    "num_rare_annotations_reassigned": 9301,
+    "post_rebalance_type_dist": [
+      {
+        "type_entity": "FOOD",
+        "count": 27296077
+      }
+    ]
+  },
+  "recommendations": [
+    "Ahora 100% FOOD: Ideal para baseline NER simple.",
+    "Re-ejecuta EDA para confirmar Gini=0 y cobertura=100%.",
+    "Si necesitas minoritarios de vuelta, filtra por entity_id original."
+  ]
+}

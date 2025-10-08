@@ -1,0 +1,8 @@
+{
+  "category_inconsistencies": 283711,
+  "category_stats": {
+    "num_categories": 26901,
+    "mean_entries_per_cat": 16.50760194788298,
+    "max_entries_per_cat": 93714
+  }
+}

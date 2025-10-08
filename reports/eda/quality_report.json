@@ -1,0 +1,21 @@
+{
+  "null_counts": {
+    "entity_local_id": 0,
+    "sentence_id": 0,
+    "entity_id": 0,
+    "char_start": 0,
+    "char_end": 0,
+    "token_start": 0,
+    "token_end": 0,
+    "entity": 0,
+    "type_entity": 0,
+    "iob_tag": 0,
+    "entity_length_chars": 0,
+    "entity_length_tokens": 0
+  },
+  "duplicates": 172681,
+  "ambiguous_entities": 329,
+  "overlaps": 156922,
+  "invalid_positions": 0,
+  "invalid_lengths": 431090
+}

@@ -209,5 +209,7 @@ __marimo__/
 
 data/raw/*
 data/intermediate/*
-data/temp/*
 data/process/*
+data/cleaned/*
+
+data/temp/*
