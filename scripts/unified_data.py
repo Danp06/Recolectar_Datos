@@ -5,7 +5,7 @@ import numpy as np
 from tqdm import tqdm  # Para barras de progreso
 
 # Ruta a los archivos parquet
-parquet_pattern = "data/intermediate/parquet/*.parquet"
+parquet_pattern = "./data/intermediate/parquet/*.parquet"
 
 # Buscar todos los archivos parquet que coincidan con el patrón
 parquet_files = glob.glob(parquet_pattern)
@@ -17,7 +17,8 @@ global_unique_entity_counter = 1
 global_sentence_counter = 1
 
 # Configuración para chunks (más pequeño para ahorrar memoria)
-output_dir = "data/intermediate/unified_data/"
+output_dir = "./data/intermediate/unified_data/"
+# Esto crea la carpeta si no existe:
 os.makedirs(output_dir, exist_ok=True)
 chunk_size = 200000  # Reducido a 250k filas por chunk para menos RAM (~2-4 GiB estimado por chunk)
 # Inicializar buffer para el chunk actual
