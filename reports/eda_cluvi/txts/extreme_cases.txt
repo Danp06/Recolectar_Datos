@@ -1,0 +1,8 @@
+# Contenido del archivo original: extreme_cases.json
+
+{
+    "short_desc_entities": 82336,
+    "labels_with_special_chars": 74214,
+    "pure_numeric_labels": 232,
+    "most_alcoholic_types": 5
+}

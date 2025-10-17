@@ -1,0 +1,81 @@
+# Contenido del archivo original: basic_stats.json
+
+{
+    "total_entries": 736181,
+    "unique_labels": 285169,
+    "unique_categories": 22868,
+    "unique_type_product": 5,
+    "unique_country_code": 11,
+    "coverage_top_main_cat": [
+        {
+            "main_category": "no especificado",
+            "count": 218154,
+            "coverage_pct": 29.63320161753699
+        },
+        {
+            "main_category": "bebidas",
+            "count": 62931,
+            "coverage_pct": 8.548305375987699
+        },
+        {
+            "main_category": "licores",
+            "count": 34053,
+            "coverage_pct": 4.62562875162494
+        },
+        {
+            "main_category": "vinos",
+            "count": 15994,
+            "coverage_pct": 2.1725635407596773
+        },
+        {
+            "main_category": "entradas",
+            "count": 11544,
+            "coverage_pct": 1.56809262939413
+        }
+    ],
+    "alcoholic_count": 241293,
+    "type_product_top5": [
+        {
+            "type_product": "bebidas",
+            "count": 382694
+        },
+        {
+            "type_product": "alimentos",
+            "count": 319314
+        },
+        {
+            "type_product": "postres",
+            "count": 29574
+        },
+        {
+            "type_product": "otros",
+            "count": 2489
+        },
+        {
+            "type_product": "no especificado",
+            "count": 2110
+        }
+    ],
+    "country_code_top5": [
+        {
+            "country_code": "CO",
+            "count": 458415
+        },
+        {
+            "country_code": "PA",
+            "count": 94267
+        },
+        {
+            "country_code": "PE",
+            "count": 92781
+        },
+        {
+            "country_code": "MX",
+            "count": 69880
+        },
+        {
+            "country_code": "SV",
+            "count": 14355
+        }
+    ]
+}

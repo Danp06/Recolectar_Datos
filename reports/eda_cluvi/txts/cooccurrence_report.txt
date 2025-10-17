@@ -1,0 +1,5 @@
+# Contenido del archivo original: cooccurrence_report.json
+
+{
+    "total_cooccurrence_pairs": 38739
+}

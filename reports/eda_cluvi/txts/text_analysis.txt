@@ -1,0 +1,9 @@
+# Contenido del archivo original: text_analysis.json
+
+{
+    "label_all_caps_pct": 0.0422450457156596,
+    "desc_capitalized_pct": 18.03714032282822,
+    "with_numbers_pct": 19.49887323905398,
+    "with_special_chars_pct": 54.31218681275393,
+    "corr_desc_length_num_words": 0.871151916823793
+}

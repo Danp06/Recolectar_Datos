@@ -1,0 +1,6 @@
+# Contenido del archivo original: label_analysis.json
+
+{
+    "single_cat_labels": 226509,
+    "multi_cat_labels": 58660
+}

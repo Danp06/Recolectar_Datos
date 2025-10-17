@@ -1,32 +1,79 @@
 {
-  "total_entries": 444071,
-  "unique_labels": 198806,
-  "unique_categories": 26901,
+  "total_entries": 736181,
+  "unique_labels": 285169,
+  "unique_categories": 20843,
+  "unique_type_product": 5,
+  "unique_country_code": 11,
   "coverage_top_main_cat": [
     {
       "main_category": "no especificado",
-      "count": 149184,
-      "coverage_pct": 33.59462788608128
+      "count": 218154,
+      "coverage_pct": 29.63320161753699
     },
     {
       "main_category": "bebidas",
-      "count": 35844,
-      "coverage_pct": 8.071682230994593
+      "count": 70486,
+      "coverage_pct": 9.574547563710555
     },
     {
       "main_category": "licores",
-      "count": 13933,
-      "coverage_pct": 3.1375613359125003
+      "count": 38230,
+      "coverage_pct": 5.19301639134941
     },
     {
-      "main_category": "drinks",
-      "count": 10704,
-      "coverage_pct": 2.410425359908663
+      "main_category": "vinos",
+      "count": 19473,
+      "coverage_pct": 2.6451375409036633
     },
     {
-      "main_category": "comidas",
-      "count": 9431,
-      "coverage_pct": 2.123759488910557
+      "main_category": "entradas",
+      "count": 12981,
+      "coverage_pct": 1.7632891911092514
+    }
+  ],
+  "alcoholic_count": 241293,
+  "type_product_top5": [
+    {
+      "type_product": "bebidas",
+      "count": 382694
+    },
+    {
+      "type_product": "alimentos",
+      "count": 319314
+    },
+    {
+      "type_product": "postres",
+      "count": 29574
+    },
+    {
+      "type_product": "otros",
+      "count": 2489
+    },
+    {
+      "type_product": "no especificado",
+      "count": 2110
+    }
+  ],
+  "country_code_top5": [
+    {
+      "country_code": "CO",
+      "count": 458415
+    },
+    {
+      "country_code": "PA",
+      "count": 94267
+    },
+    {
+      "country_code": "PE",
+      "count": 92781
+    },
+    {
+      "country_code": "MX",
+      "count": 69880
+    },
+    {
+      "country_code": "SV",
+      "count": 14355
     }
   ]
 }

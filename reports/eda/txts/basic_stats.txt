@@ -1,0 +1,6 @@
+{
+    "total_annotations": 10918430,
+    "unique_entities": 417115,
+    "annotated_sentences": 3178926,
+    "coverage_pct": 100.0
+}

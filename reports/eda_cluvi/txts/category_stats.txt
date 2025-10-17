@@ -1,0 +1,9 @@
+# Contenido del archivo original: category_stats.json
+
+{
+    "gini_coefficient": 0.823022297558863,
+    "entropy": 7.160021536802244,
+    "max_min_ratio": 89195.0,
+    "num_categories": 22868,
+    "rare_categories_count": 22862
+}

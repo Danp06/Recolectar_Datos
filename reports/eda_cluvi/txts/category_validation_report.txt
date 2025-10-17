@@ -1,0 +1,10 @@
+# Contenido del archivo original: category_validation_report.json
+
+{
+    "category_inconsistencies": 522161,
+    "category_stats": {
+        "num_categories": 22868,
+        "mean_entries_per_cat": 32.192627252055274,
+        "max_entries_per_cat": 89195
+    }
+}

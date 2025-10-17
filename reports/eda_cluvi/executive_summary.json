@@ -1,34 +1,36 @@
 {
   "dataset_overview": {
-    "total_entries": 444071,
-    "unique_labels": 198806,
-    "unique_categories": 26901,
-    "num_main_categories": 8829,
+    "total_entries": 736181,
+    "unique_labels": 285169,
+    "unique_categories": 20843,
+    "unique_type_product": 5,
+    "unique_country_code": 11,
+    "num_main_categories": 7272,
     "coverage_top_main_cat": [
       {
         "main_category": "no especificado",
-        "count": 149184,
-        "coverage_pct": 33.59462788608128
+        "count": 218154,
+        "coverage_pct": 29.63320161753699
       },
       {
         "main_category": "bebidas",
-        "count": 35844,
-        "coverage_pct": 8.071682230994593
+        "count": 70486,
+        "coverage_pct": 9.574547563710555
       },
       {
         "main_category": "licores",
-        "count": 13933,
-        "coverage_pct": 3.1375613359125003
+        "count": 38230,
+        "coverage_pct": 5.19301639134941
       },
       {
-        "main_category": "drinks",
-        "count": 10704,
-        "coverage_pct": 2.410425359908663
+        "main_category": "vinos",
+        "count": 19473,
+        "coverage_pct": 2.6451375409036633
       },
       {
-        "main_category": "comidas",
-        "count": 9431,
-        "coverage_pct": 2.123759488910557
+        "main_category": "entradas",
+        "count": 12981,
+        "coverage_pct": 1.7632891911092514
       }
     ]
   },
@@ -39,6 +41,9 @@
       "description": 0,
       "category": 0,
       "main_category": 0,
+      "is_alcoholic": 0,
+      "type_product": 0,
+      "country_code": 0,
       "description_length_chars": 0,
       "label_length_chars": 0,
       "standard_label_length_chars": 0,
@@ -49,67 +54,72 @@
       "has_numbers": 0,
       "has_special_chars": 0
     },
-    "duplicates": 294939,
-    "label_inconsistencies": 11736,
-    "ambiguous_categories": 39381,
-    "invalid_lengths": 39371
+    "duplicates": 529581,
+    "label_inconsistencies": 19255,
+    "ambiguous_categories": 57117,
+    "invalid_lengths": 73562,
+    "alcoholic_pct": 32.77631452047798,
+    "unique_type_product": 5,
+    "unique_country_code": 11
   },
   "imbalance_metrics": {
-    "gini_coefficient": 0.8316847895211099,
-    "entropy": 6.797593367577795,
-    "max_min_ratio": 93714.0
+    "gini_coefficient": 0.8378648638721802,
+    "entropy": 6.879232509755447,
+    "max_min_ratio": 89195.0
   },
   "top_5_categories": [
     {
       "category": "no especificado",
-      "count": 93714
+      "count": 89195
     },
     {
       "category": "bebidas",
-      "count": 9880
+      "count": 24897
     },
     {
       "category": "entradas",
-      "count": 7237
+      "count": 16042
     },
     {
       "category": "cervezas",
-      "count": 5250
+      "count": 14179
     },
     {
-      "category": "whisky",
-      "count": 4330
+      "category": "postres",
+      "count": 10716
     }
   ],
   "length_statistics": {
-    "mean_desc_length": 52.29506993251079,
-    "median_desc_length": 17.0,
+    "mean_desc_length": 54.70646485035609,
+    "median_desc_length": 19.0,
     "max_desc_length": 7997,
-    "mean_label_length": 17.18416649589818
+    "mean_label_length": 17.185306330915903
   },
   "category_validation": {
-    "category_inconsistencies": 283711,
+    "category_inconsistencies": 501913,
     "category_stats": {
-      "num_categories": 26901,
-      "mean_entries_per_cat": 16.50760194788298,
-      "max_entries_per_cat": 93714
+      "num_categories": 20843,
+      "mean_entries_per_cat": 35.320299381087175,
+      "max_entries_per_cat": 89195
     }
   },
   "clustering": {
-    "optimal_clusters": 4,
-    "pca_variance_explained": 0.9907210481479423
+    "optimal_clusters": 5,
+    "pca_variance_explained": 0.5208403849741119
   },
   "extreme_cases": {
-    "short_desc_entities": 46057,
-    "labels_with_special_chars": 45535,
-    "pure_numeric_labels": 127
+    "short_desc_entities": 82336,
+    "labels_with_special_chars": 74214,
+    "pure_numeric_labels": 232,
+    "most_alcoholic_types": 5
   },
   "recommendations": [
     "Revisar labels duplicados",
     "Resolver inconsistencias label vs standard_label",
     "Resolver labels ambiguos con múltiples categorías",
     "Validar diferencias category vs main_category",
-    "Considerar estratificación por categoría (Gini=0.83)",
-    "Revisar descripciones de ≤5 chars"
+    "Considerar estratificación por categoría (Gini=0.84)",
+    "Revisar descripciones de ≤5 chars",
+    "Analizar distribución de type_product y country_code para sesgos geográficos o de tipo"
   ]
 }

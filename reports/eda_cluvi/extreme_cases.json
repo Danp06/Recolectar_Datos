@@ -1,5 +1,6 @@
 {
-  "short_desc_entities": 46057,
-  "labels_with_special_chars": 45535,
-  "pure_numeric_labels": 127
+  "short_desc_entities": 82336,
+  "labels_with_special_chars": 74214,
+  "pure_numeric_labels": 232,
+  "most_alcoholic_types": 5
 }

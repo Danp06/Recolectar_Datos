@@ -5,6 +5,9 @@
     "description": 0,
     "category": 0,
     "main_category": 0,
+    "is_alcoholic": 0,
+    "type_product": 0,
+    "country_code": 0,
     "description_length_chars": 0,
     "label_length_chars": 0,
     "standard_label_length_chars": 0,
@@ -15,8 +18,11 @@
     "has_numbers": 0,
     "has_special_chars": 0
   },
-  "duplicates": 294939,
-  "label_inconsistencies": 11736,
-  "ambiguous_categories": 39381,
-  "invalid_lengths": 39371
+  "duplicates": 529581,
+  "label_inconsistencies": 19255,
+  "ambiguous_categories": 57117,
+  "invalid_lengths": 73562,
+  "alcoholic_pct": 32.77631452047798,
+  "unique_type_product": 5,
+  "unique_country_code": 11
 }
