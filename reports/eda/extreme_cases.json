@@ -1,5 +1,5 @@
 {
-  "single_char_entities": 10263,
-  "entities_with_special_chars": 29071,
-  "pure_numeric_entities": 1012
+  "single_char_entities": 8511,
+  "entities_with_special_chars": 23955,
+  "pure_numeric_entities": 843
 }

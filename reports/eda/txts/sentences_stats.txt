@@ -1,0 +1,18 @@
+# Contenido del archivo original: sentences_stats.json
+
+{
+    "mean_sentence_length_chars": 578.4796130490748,
+    "median_sentence_length_chars": 426.0,
+    "max_sentence_length_chars": 14966.0,
+    "mean_num_tokens": 108.31082656739729,
+    "median_num_tokens": 81.0,
+    "max_num_tokens": 2783.0,
+    "num_without_entities": 0,
+    "pct_without_entities": 0.0,
+    "pct_all_caps": 9.003419516560943e-05,
+    "pct_capitalized": 0.7268353604398661,
+    "pct_with_numbers": 0.9423816808047096,
+    "pct_with_special_chars": 0.9999491886225303,
+    "num_very_short": 0,
+    "num_very_long": 398
+}

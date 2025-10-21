@@ -13,9 +13,9 @@
     "entity_length_chars": 0,
     "entity_length_tokens": 0
   },
-  "duplicates": 172681,
+  "duplicates": 332221,
   "ambiguous_entities": 329,
-  "overlaps": 156922,
+  "overlaps": 309384,
   "invalid_positions": 0,
-  "invalid_lengths": 431090
+  "invalid_lengths": 355687
 }

@@ -1,7 +1,7 @@
 {
-  "gini_coefficient": 0.8887287111995243,
-  "entropy": 0.0035440007423797916,
-  "max_min_ratio": 436588.64,
+  "gini_coefficient": 0.8887383279500951,
+  "entropy": 0.0033994587743956988,
+  "max_min_ratio": 692681.6923076923,
   "num_types": 9,
   "rare_types_count": 8
 }

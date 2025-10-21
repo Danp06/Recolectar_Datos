@@ -18,13 +18,18 @@ for filename in os.listdir(input_dir):
         try:
             with open(input_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-            # Si el json es dict intenta formatearlo legiblemente
+            
+            # Si el json es dict o list, intenta formatearlo legiblemente
             if isinstance(data, dict) or isinstance(data, list):
-                text = json.dumps(data, indent=4, ensure_ascii=False)
+                json_content = json.dumps(data, indent=4, ensure_ascii=False)
             else:
-                text = str(data)  # fallback
+                json_content = str(data)  # fallback para otros tipos de datos
+            
+            # Añadir el nombre del archivo original al inicio del texto
+            text_to_write = f"# Contenido del archivo original: {filename}\n\n{json_content}"
+            
             with open(output_path, 'w', encoding='utf-8') as f:
-                f.write(text)
+                f.write(text_to_write)
             print(f"Convertido: {filename} -> {output_filename}")
         except Exception as e:
             print(f"Error procesando {filename}: {e}")

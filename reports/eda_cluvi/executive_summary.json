@@ -64,7 +64,7 @@
   },
   "imbalance_metrics": {
     "gini_coefficient": 0.8378648638721802,
-    "entropy": 6.879232509755447,
+    "entropy": 6.879232509755446,
     "max_min_ratio": 89195.0
   },
   "top_5_categories": [
@@ -105,7 +105,7 @@
   },
   "clustering": {
     "optimal_clusters": 5,
-    "pca_variance_explained": 0.5208403849741119
+    "pca_variance_explained": 0.520840384974112
   },
   "extreme_cases": {
     "short_desc_entities": 82336,

@@ -1,3 +1,5 @@
+# Contenido del archivo original: cooccurrence_report.json
+
 {
-    "total_cooccurrence_pairs": 34
+    "total_cooccurrence_pairs": 36
 }

@@ -1,11 +1,23 @@
+# Contenido del archivo original: executive_summary.json
+
 {
     "dataset_overview": {
-        "total_annotations": 10918430,
-        "unique_entities": 417115,
-        "annotated_sentences": 3178926,
-        "total_sentences": 3178926,
+        "total_annotations": 9007796,
+        "unique_entities": 370140,
+        "annotated_sentences": 1121796,
+        "total_sentences": 1121796,
         "coverage_pct": 100.0,
         "num_entity_types": 9
+    },
+    "sentences_overview": {
+        "mean_sentence_length_chars": 578.4796130490748,
+        "median_sentence_length_chars": 426.0,
+        "max_sentence_length_chars": 14966.0,
+        "mean_num_tokens": 108.31082656739729,
+        "median_num_tokens": 81.0,
+        "max_num_tokens": 2783.0,
+        "num_without_entities": 0,
+        "pct_without_entities": 0.0
     },
     "quality_metrics": {
         "null_counts": {
@@ -22,61 +34,61 @@
             "entity_length_chars": 0,
             "entity_length_tokens": 0
         },
-        "duplicates": 172681,
+        "duplicates": 332221,
         "ambiguous_entities": 329,
-        "overlaps": 156922,
+        "overlaps": 309384,
         "invalid_positions": 0,
-        "invalid_lengths": 431090
+        "invalid_lengths": 355687
     },
     "imbalance_metrics": {
-        "gini_coefficient": 0.8887287111995243,
-        "entropy": 0.0035440007423797916,
-        "max_min_ratio": 436588.64
+        "gini_coefficient": 0.8887383279500951,
+        "entropy": 0.0033994587743956988,
+        "max_min_ratio": 692681.6923076923
     },
     "top_5_types": [
         {
             "type_entity": "FOOD",
-            "count": 10914716
+            "count": 9004862
         },
         {
             "type_entity": "QUANTITY",
-            "count": 1466
+            "count": 1190
         },
         {
             "type_entity": "UNIT",
-            "count": 1263
+            "count": 1002
         },
         {
             "type_entity": "PROCESS",
-            "count": 486
+            "count": 372
         },
         {
             "type_entity": "PHYSICAL_QUALITY",
-            "count": 294
+            "count": 219
         }
     ],
     "length_statistics": {
-        "mean_entity_length": 8.179103405892606,
+        "mean_entity_length": 8.180175483547806,
         "median_entity_length": 7.0,
-        "max_entity_length": 135,
-        "mean_sentence_length": 596.3065277392427
+        "max_entity_length": 145,
+        "mean_sentence_length": 578.4796130490748
     },
     "iob_validation": {
         "invalid_sequences": 0,
         "sequence_stats": {
             "mean": 1.0,
             "max": 1.0,
-            "total_sequences": 10918430
+            "total_sequences": 9007796
         }
     },
     "clustering": {
         "optimal_clusters": 4,
-        "pca_variance_explained": 0.8291304951359788
+        "pca_variance_explained": 0.8317025715388819
     },
     "extreme_cases": {
-        "single_char_entities": 10263,
-        "entities_with_special_chars": 29071,
-        "pure_numeric_entities": 1012
+        "single_char_entities": 8511,
+        "entities_with_special_chars": 23955,
+        "pure_numeric_entities": 843
     },
     "recommendations": [
         "Revisar anotaciones duplicadas",

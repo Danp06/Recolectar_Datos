@@ -1,6 +1,8 @@
+# Contenido del archivo original: basic_stats.json
+
 {
-    "total_annotations": 10918430,
-    "unique_entities": 417115,
-    "annotated_sentences": 3178926,
+    "total_annotations": 9007796,
+    "unique_entities": 370140,
+    "annotated_sentences": 1121796,
     "coverage_pct": 100.0
 }
